@@ -1,12 +1,9 @@
 package com.sathish.assignmentTwo;
 
-//Commission.java
+
 import java.util.Scanner;
 
-/**
-* The Commission class represents a sales employee
-* and calculates commission based on sales amount.
-*/
+
 class Commission {
 //Data members
 private String name;
@@ -14,7 +11,6 @@ private String address;
 private String phone;
 private double salesAmount;
 
-//Method to accept details
 public void acceptDetails() {
 Scanner sc = new Scanner(System.in);
 
@@ -31,7 +27,6 @@ System.out.print("Enter Sales Amount: ");
 salesAmount = sc.nextDouble();
 }
 
-//Method to calculate commission
 public void calculateCommission() {
 double commission;
 
