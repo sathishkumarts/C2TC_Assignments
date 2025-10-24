@@ -14,7 +14,7 @@ public class Main {
 
         switch (choice) {
             case 1:
-                airfare = new AirIndia(hours, costPerHour);
+                airfare = new AirIndia(hours, costPerHour);//fgh
                 break;
             case 2:
                 airfare = new KingFisher(hours, costPerHour);
